@@ -17,7 +17,7 @@ class {{entity_name}}Repository implements {{entity_name}}RepositoryInterface
 {
 
     /**
-     * The {{toLowerCase module_name}} model.
+     * The {{toLowerCase entity_name}} model.
      *
      * @var {{entity_name}}Model
      */
@@ -34,7 +34,7 @@ class {{entity_name}}Repository implements {{entity_name}}RepositoryInterface
     }
 
     /**
-     * Create a new {{toLowerCase module_name}}.
+     * Create a new {{toLowerCase entity_name}}.
      *
      * @param array $attributes
      * @return static
