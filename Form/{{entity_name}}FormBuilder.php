@@ -5,9 +5,7 @@ use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
 /**
  * Class {{entity_name}}FormBuilder
  *
- * @link          http://anomaly.is/streams-platform
- * @author        AnomalyLabs, Inc. <hello@anomaly.is>
- * @author        Ryan Thompson <ryan@anomaly.is>
+{{docblock}}
  * @package       {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Form
  */
 
