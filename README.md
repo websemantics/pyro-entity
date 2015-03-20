@@ -18,7 +18,7 @@ An Entity is a representation of an Object Type which may correspond with a Stre
      * @var array
      */
     protected $singletons = [
-        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\{{entity_name}}RepositoryInterface' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\{{entity_name}}Repository',
+        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Repository',
     ];
 
 (3) Add the following code to the Module's sections in {{module_name}}Module.php
