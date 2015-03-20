@@ -35,7 +35,7 @@ class {{entity_name}}Seeder extends Seeder
     {
         $this->${{toLowerPlural entity_name}}->create(
             [
-                /* 'name'            => 'English', */
+                /* 'name'            => 'Example', */
             ]
         );
     }
