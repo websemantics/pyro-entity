@@ -1,4 +1,4 @@
-<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Form;
+<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Form;
 
 use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
 
@@ -6,7 +6,7 @@ use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
  * Class {{entity_name}}FormBuilder
  *
 {{docblock}}
- * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Form
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Form
  */
 
 class {{entity_name}}FormBuilder extends FormBuilder
@@ -17,7 +17,7 @@ class {{entity_name}}FormBuilder extends FormBuilder
      *
      * @var string
      */
-    protected $model = '{{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\\{{entity_name}}Model';
+    protected $model = '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Model';
 
     /**
      * The form fields.

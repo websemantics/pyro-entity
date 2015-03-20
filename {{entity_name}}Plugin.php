@@ -1,13 +1,13 @@
-<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{entity_name}};
+<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}};
 
-use {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface;
+use {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface;
 use Anomaly\Streams\Platform\Addon\Plugin\Plugin;
 
 /**
  * Class {{entity_name}}Plugin
  *
 {{docblock}}
- * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}
  */
 
 class {{entity_name}}Plugin extends Plugin
