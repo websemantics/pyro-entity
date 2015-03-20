@@ -12,6 +12,16 @@ An Entity is a representation of an Object Type which may correspond with a Stre
 
 (2) Add the following lines to your Module's ServiceProvider: {{module_name}}ModuleServiceProvider.
 
+
+    /**
+     * The class bindings.
+     *
+     * @var array
+     */
+    protected $bindings = [
+        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}Model' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}Model'
+    ];
+
     /**
      * The singleton bindings.
      *
