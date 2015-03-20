@@ -57,5 +57,12 @@ An Entity is a representation of an Object Type which may correspond with a Stre
             ]
         ]
     ];
+(4) Finally, update your language file, at for example, 'resources/lang/en/addon.php'
+
+    return [
+        'section'     => [
+            '{{toLowerPlural entity_name}}' => '{{toPlural entity_name}}'
+        ]
+    ];
 
 {{generatedBy}}
