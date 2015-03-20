@@ -8,7 +8,7 @@ use Anomaly\Streams\Platform\Entry\EntryCollection;
  * Class {{entity_name}}Repository
  *
 {{docblock}}
- * @package       {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
  */
 
 class {{entity_name}}Repository implements {{entity_name}}RepositoryInterface

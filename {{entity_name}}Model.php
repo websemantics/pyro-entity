@@ -7,7 +7,7 @@ use Anomaly\Streams\Platform\Model\\{{namespace}}\\{{namespace}}{{toPlural entit
  * Class {{entity_name}}Model
  *
 {{docblock}}
- * @package       {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
  */
 
 class {{entity_name}}Model extends {{namespace}}{{toPlural entity_name}}EntryModel implements {{entity_name}}Interface

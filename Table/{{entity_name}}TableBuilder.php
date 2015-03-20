@@ -6,7 +6,7 @@ use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
  * Class {{entity_name}}TableBuilder
  *
 {{docblock}}
- * @package       {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Table
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Table
  */
 
 class {{entity_name}}TableBuilder extends TableBuilder

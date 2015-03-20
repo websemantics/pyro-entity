@@ -7,7 +7,7 @@ use Anomaly\Streams\Platform\Addon\Plugin\Plugin;
  * Class {{entity_name}}Plugin
  *
 {{docblock}}
- * @package       {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
  */
 
 class {{entity_name}}Plugin extends Plugin
