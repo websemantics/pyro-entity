@@ -28,9 +28,9 @@ An Entity is a representation of an Object Type which may correspond with a Stre
      * @var array
      */
     protected $routes = [
-        'admin/{{toLowerCase module_name}}/{{toLowerPlural entity_name}}'            => '{{vendor_name}}\{{module_name}}Module\Http\Controller\Admin\{{entity_name}}Controller@index',
-        'admin/{{toLowerCase module_name}}/{{toLowerPlural entity_name}}/create'     => '{{vendor_name}}\{{module_name}}Module\Http\Controller\Admin\{{entity_name}}Controller@create',
-        'admin/{{toLowerCase module_name}}/{{toLowerPlural entity_name}}/edit/{id}'  => '{{vendor_name}}\{{module_name}}Module\Http\Controller\Admin\{{entity_name}}Controller@edit',
+        'admin/{{toLowerCase module_name}}/{{toLowerPlural entity_name}}'            => '{{vendor_name}}\\{{module_name}}Module\Http\Controller\Admin\\{{entity_name}}Controller@index',
+        'admin/{{toLowerCase module_name}}/{{toLowerPlural entity_name}}/create'     => '{{vendor_name}}\\{{module_name}}Module\Http\Controller\Admin\\{{entity_name}}Controller@create',
+        'admin/{{toLowerCase module_name}}/{{toLowerPlural entity_name}}/edit/{id}'  => '{{vendor_name}}\\{{module_name}}Module\Http\Controller\Admin\\{{entity_name}}Controller@edit',
     ];
 
 (3) Add the following code to the Module's sections in {{module_name}}Module.php
