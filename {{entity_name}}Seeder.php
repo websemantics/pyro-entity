@@ -6,7 +6,8 @@ use Anomaly\Streams\Platform\Database\Seeder\Seeder;
 /**
  * Class {{entity_name}}Seeder
  *
-c * @package   {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}
+{{docblock}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}
  */
 class {{entity_name}}Seeder extends Seeder
 {
