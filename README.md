@@ -19,7 +19,7 @@ An Entity is a representation of an Object Type which may correspond with a Stre
      * @var array
      */
     protected $bindings = [
-        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}Model' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}Model'
+        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Model' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Model'
     ];
 
     /**
