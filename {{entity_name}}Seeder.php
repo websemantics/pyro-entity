@@ -26,7 +26,7 @@ class {{entity_name}}Seeder extends Seeder
      */
     public function __construct({{entity_name}}RepositoryInterface ${{toLowerPlural entity_name}})
     {
-        $this->${{toLowerPlural entity_name}} = ${{toLowerPlural entity_name}};
+        $this->{{toLowerPlural entity_name}} = ${{toLowerPlural entity_name}};
     }
 
     /**
@@ -34,7 +34,7 @@ class {{entity_name}}Seeder extends Seeder
      */
     public function run()
     {
-        $this->${{toLowerPlural entity_name}}->create(
+        $this->{{toLowerPlural entity_name}}->create(
             [
                 /* 'name'            => 'Example', */
             ]
