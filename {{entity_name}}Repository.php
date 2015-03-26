@@ -2,7 +2,6 @@
 
 use {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\\{{entity_name}}Interface;
 use {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface;
-use Anomaly\Streams\Platform\Entry\EntryCollection;
 
 /**
  * Class {{entity_name}}Repository
