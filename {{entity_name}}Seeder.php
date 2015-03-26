@@ -1,13 +1,13 @@
-<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}};
+<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{entity_name}};
 
-use {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface;
+use {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface;
 use Anomaly\Streams\Platform\Database\Seeder\Seeder;
 
 /**
  * Class {{entity_name}}Seeder
  *
 {{docblock}}
- * @package   {{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}
  */
 class {{entity_name}}Seeder extends Seeder
 {

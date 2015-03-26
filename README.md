@@ -19,7 +19,7 @@ An Entity is a representation of an Object Type which may correspond with a Stre
      * @var array
      */
     protected $bindings = [
-        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Model' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Model'
+        '{{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\\{{entity_name}}Model' => '{{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\\{{entity_name}}Model'
     ];
 
     /**
@@ -28,7 +28,7 @@ An Entity is a representation of an Object Type which may correspond with a Stre
      * @var array
      */
     protected $singletons = [
-        '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface' => '{{vendor_name}}\\{{module_name}}Module\\{{namespace}}\\{{entity_name}}\\{{entity_name}}Repository',
+        '{{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Contract\\{{entity_name}}RepositoryInterface' => '{{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\\{{entity_name}}Repository',
     ];
 
 
@@ -57,12 +57,15 @@ An Entity is a representation of an Object Type which may correspond with a Stre
             ]
         ]
     ];
-(4) Finally, update your language file, at for example, 'resources/lang/en/addon.php'
+
+(4) Update your language file, at for example, 'resources/lang/en/addon.php'
 
     return [
         'section'     => [
             '{{toLowerPlural entity_name}}' => '{{toPlural entity_name}}'
         ]
     ];
+
+(5) Finally, you can relocate the Plugin and the Seeder classes anywhere in your application.
 
 {{generatedBy}}
