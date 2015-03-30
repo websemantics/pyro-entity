@@ -1,6 +1,6 @@
 <?php namespace {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Table;
 
-use {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\{{entity_name}}Model;
+use {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\\{{entity_name}}Model;
 
 /**
  * Class {{entity_name}}TableColumns
