@@ -1,39 +1,25 @@
-<?php namespace Websemantics\BuilderModule\Builder\Builder\Table;
+<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Table;
 
-use Websemantics\BuilderModule\Builder\Builder\BuilderModel;
+use {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\{{entity_name}}Model;
 
 /**
- * Class BuilderTableColumns
+ * Class {{entity_name}}TableBuilder
  *
- * @link      http://websemantics.ca/ibuild
- * @link      http://ibuild.io
- * @author    WebSemantics, Inc. hi@websemantics.ca
- * @author    Adnan Sagar msagar@websemantics.ca
- * @copyright 2012-2015 Web Semantics, Inc.
- * @since     March 24th 2015
- * @package   Websemantics\BuilderModule\Builder\Builder\Table
+{{docblock}}
+ * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Table
  */
-
-class BuilderTableColumns
+class {{entity_name}}TableColumns
 {
 
     /**
      * Handle the columns.
      *
-     * @param BuilderTableBuilder $builder
+     * @param {{entity_name}}TableBuilder $builder
      */
-    public function handle(BuilderTableBuilder $builder)
+    public function handle({{entity_name}}TableBuilder $builder)
     {
         $builder->setColumns(
-            [
-                'name',
-                'language',
-                ['heading' => 'slug',
-                 'value'   => function  (BuilderModel $entry) {
-                        return "<a class='ui label'>".trim($entry->slug)."</a>";
-                    }
-                ],
-                'description'            ]
+            []
         );
     }
 }
