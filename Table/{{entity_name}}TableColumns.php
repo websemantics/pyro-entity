@@ -3,7 +3,7 @@
 use {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\{{entity_name}}Model;
 
 /**
- * Class {{entity_name}}TableBuilder
+ * Class {{entity_name}}TableColumns
  *
 {{docblock}}
  * @package   {{vendor_name}}\\{{module_name}}Module\\{{entity_name}}\Table
